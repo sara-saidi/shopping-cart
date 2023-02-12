@@ -1,0 +1,34 @@
+
+.container{
+    width: 1000px;
+    height: 900px;
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    
+    
+    justify-items: center;
+ 
+    
+}
+.cart{
+    display: flexbox;
+
+    justify-content: center;
+    justify-items: center;
+    width: 50%;
+    height: 300px;
+    border:solid 2px;
+    
+}
+.image{
+    width: 70%;
+    height: 150px;
+}
+.btnn{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    outline: none;
+    color: gray;
+}

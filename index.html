@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA SHOP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c0de85e8fa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div class="cart" id="item1">
+        <img src="pizza1.jpeg" class="image">
+        <h3 class="title">Pizza 1 </h3>
+        
+        <h4 class="price1">10</h4>
+        <button class="btn" id="plus" onclick="add1()">+</button>
+        <button class="btn" id="moin" onclick="sous1()">-</button>
+        <button class="btnn" id="bt1" onclick="toogle1()"><i class="fa-solid fa-heart"></i></button>
+
+    </div>
+    <div class="cart" id="item2">
+        <img src="pizza-royale.jpg" class="image">
+        <h3 class="title">Pizza 2 </h3>
+        
+    
+        <h4 class="price2">15</h4>
+        <button class="btn" id="plus" onclick="add2()">+</button>
+        <button class="btn" id="moin" onclick="sous2()">-</button>
+        <button class="btnn" id="bt2" onclick="toogle2()"><i class="fa-solid fa-heart"></i></button>
+
+    </div>
+
+    <div class="cart" >
+        
+        <h3 class="totale">Total =$</h3>
+        <h3 class="totale" id="tot">0</h3>
+        <button class="btnBuy" id="buy">   Buy Now</button>
+       
+    
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
